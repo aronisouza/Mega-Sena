@@ -1,0 +1,19 @@
+D:\CSharp\MSena\Mega Sena\bin\Debug\Mega Sena.exe.config
+D:\CSharp\MSena\Mega Sena\bin\Debug\Mega Sena.exe
+D:\CSharp\MSena\Mega Sena\bin\Debug\Mega Sena.pdb
+D:\CSharp\MSena\Mega Sena\obj\Debug\Mega Sena.csprojAssemblyReference.cache
+D:\CSharp\MSena\Mega Sena\obj\Debug\Mega_Sena.Properties.Resources.resources
+D:\CSharp\MSena\Mega Sena\obj\Debug\Mega Sena.csproj.GenerateResource.cache
+D:\CSharp\MSena\Mega Sena\obj\Debug\Mega Sena.csproj.CoreCompileInputs.cache
+D:\CSharp\MSena\Mega Sena\obj\Debug\Mega Sena.exe
+D:\CSharp\MSena\Mega Sena\obj\Debug\Mega Sena.pdb
+D:\CSharp\MSena\Mega Sena\obj\Debug\Mega_Sena.Home.resources
+D:\CSharp\MSena\Mega Sena\obj\Debug\Mega_Sena.Adicionar.resources
+D:\CSharp\MSena\Mega Sena\obj\Debug\Mega_Sena.TabelaItens.resources
+D:\CSharp\MSena\Mega Sena\obj\Debug\Mega_Sena.TabelaLotoFacil.resources
+D:\CSharp\MSena\Mega Sena\obj\Debug\Mega_Sena.FzJgdMegaSena.resources
+D:\CSharp\MSena\Mega Sena\obj\Debug\Mega_Sena.SimularJogada.resources
+D:\CSharp\MSena\Mega Sena\obj\Debug\Mega_Sena.AdicionarLoto.resources
+D:\CSharp\MSena\Mega Sena\obj\Debug\Mega_Sena.LotoFacil.resources
+D:\CSharp\MSena\Mega Sena\obj\Debug\Mega_Sena.EditarSelecionado.resources
+D:\CSharp\MSena\Mega Sena\obj\Debug\Mega_Sena.CartelaQuina.resources

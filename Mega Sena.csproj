@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{391CDF1E-E77B-4679-9AFB-52FB87AACB40}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Mega_Sena</RootNamespace>
+    <AssemblyName>Mega Sena</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Adicionar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Adicionar.Designer.cs">
+      <DependentUpon>Adicionar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Atualizar.cs" />
+    <Compile Include="Cadastro.cs" />
+    <Compile Include="CartelaQuina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CartelaQuina.Designer.cs">
+      <DependentUpon>CartelaQuina.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Conexao.cs" />
+    <Compile Include="Configuracao.cs" />
+    <Compile Include="Deletar.cs" />
+    <Compile Include="AdicionarLoto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdicionarLoto.Designer.cs">
+      <DependentUpon>AdicionarLoto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditarSelecionado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditarSelecionado.Designer.cs">
+      <DependentUpon>EditarSelecionado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LotoFacil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LotoFacil.Designer.cs">
+      <DependentUpon>LotoFacil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FzJgd.cs" />
+    <Compile Include="FzJgdMegaSena.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FzJgdMegaSena.Designer.cs">
+      <DependentUpon>FzJgdMegaSena.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Selecionar.cs" />
+    <Compile Include="SimularJogada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SimularJogada.Designer.cs">
+      <DependentUpon>SimularJogada.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SimularJogadaAi.cs" />
+    <Compile Include="TabelaLotoFacil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include=".Designer.cs">
+      <DependentUpon>TabelaLotoFacil.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TabelaItens.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TabelaItens.Designer.cs">
+      <DependentUpon>TabelaItens.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Adicionar.resx">
+      <DependentUpon>Adicionar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdicionarLoto.resx">
+      <DependentUpon>AdicionarLoto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CartelaQuina.resx">
+      <DependentUpon>CartelaQuina.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditarSelecionado.resx">
+      <DependentUpon>EditarSelecionado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FzJgdMegaSena.resx">
+      <DependentUpon>FzJgdMegaSena.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LotoFacil.resx">
+      <DependentUpon>LotoFacil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SimularJogada.resx">
+      <DependentUpon>SimularJogada.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TabelaLotoFacil.resx">
+      <DependentUpon>TabelaLotoFacil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TabelaItens.resx">
+      <DependentUpon>TabelaItens.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-localizar-e-substituir-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-salvar-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-excluir-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lotofacil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mega sena.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quina.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
